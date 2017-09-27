@@ -1,0 +1,88 @@
+/* CSS reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+/* Main CSS */
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('https://i.imgur.com/2xSJf88.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Bookman Old Style';
+}
+.profile-card{
+  width: 480px;
+  max-width: calc(100vw - 10px);
+  background-color: hsla(1, 0%, 100%, .5);
+  border-radius: 25px;
+  box-shadow: hsla(0, 0%, 0%, 1) 10px 10px 80px;
+}
+.head{
+  color: rgb(40, 40, 40);
+}
+.content{
+  padding: 5% 10%;
+  border-top: 1px solid hsla(0, 0%, 30%, .8);
+  width: 75%;
+}
+img {
+  width: 120px;
+  height: 120px;
+  border-radius: 30%;
+  margin-top: -75px;
+  padding: 1px;
+  background-color: #ee82ee;
+  transition: all 0.7s ease-in-out;
+  filter: grayscale(20%);
+}
+img:hover {
+  transform: scale(1.1);
+  filter: grayscale(20%);
+}
+.profile-image{
+  /*még nincs tartalom*/
+}
+.name-headline{
+    /*még nincs tartalom*/
+}
+.about{
+}
+.links{
+    /*még nincs tartalom*/}
+/* Contact links */
+ul{
+  list-style-type: none;
+}
+li{
+  display: inline;
+}
+/*Head, Links, Content*/
+.head{
+  text-align: center;
+}
+.links{
+  text-align: left;
+  
+}
+.head, .content {
+      width: 90%;
+      margin: 0 auto;
+}
+footer, i{
+  padding: 0;
+  margin: 0 auto;
+  text-align:center;
+  font-size: 12px;
+}
+p{
+  font-size: 13px;
+}
+/*Térközök*/
+.head, .about {
+  margin-bottom: 5%;
+}
